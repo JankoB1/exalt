@@ -3,5 +3,16 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
+    z-index: -1;
     height: 100vh;
+    animation: rotation 10s infinite linear;
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

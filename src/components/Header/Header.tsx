@@ -1,10 +1,14 @@
 import React from 'react';
 import './Header.css';
+import logo from '../../assets/images/exalt-logo.svg';
 
 const Header: React.FC = () => {
     return (
         <header className="header">
-            <h1>This is the Header</h1>
+            <div className="header-inner">
+                <img src={logo} alt="exalt logo"/>
+                <button>Schedule a call</button>
+            </div>
         </header>
     );
 };

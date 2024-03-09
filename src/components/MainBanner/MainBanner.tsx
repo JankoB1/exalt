@@ -5,7 +5,7 @@ import './MainBanner.css'
 const MainBanner: React.FC = () => {
     return (
         <div className="main-banner">
-            <div className='main-banner-img'>
+            <div className="main-banner-img">
             </div>
         </div>
     );
